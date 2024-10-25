@@ -1,0 +1,62 @@
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: "Londrina Sketch", sans-serif;
+    background-color: burlywood;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+img{
+    width: 200px;
+    margin: 0 auto;
+}
+input{
+    color: burlywood;
+    background-color: beige;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Nanum Gothic", sans-serif;        ;
+    margin: 10px 0;
+}
+
+button{
+    color: burlywood;
+    background-color: rgb(80, 79, 72);
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Titan One", sans-serif;;
+    margin: 10px 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+ul li{
+    font-size: 20px;
+    background-color:  beige;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgb(80, 79, 72)
+}
+ul li:hover{
+    transform: scale(1.1);
+    background-color: rgb(80, 79, 72);
+    font-family: "Nanum Gothic", sans-serif;
+} 
